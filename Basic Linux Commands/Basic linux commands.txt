@@ -1,0 +1,28 @@
+📂 Créer / supprimer
+Commande	Rôle				Exemple
+mkdir	     	Créer un dossier		mkdir projet
+mkdir -p	Créer plusieurs niveaux		mkdir -p projet src/app
+touch		Créer un fichier		touch test.txt
+rmdir		Supprimer un dossier vide	rmdir test
+rm		Supprimer un fichier		rm test.txt
+rm -r		Supprimer un dossier + contenu	rm -r projet
+📋 Copier / déplacer
+Commande	Rôle				Exemple
+cp		Copier un fichier		cp a.txt backup/
+cp -r		Copier un dossier		cp -r projet backup/
+mv		Déplacer			mv a.txt documents/
+mv		Renommer			mv ancien.txt nouveau.txt
+📄 Lire et rechercher
+Commande	Rôle				Exemple
+cat		Afficher un fichier		cat test.txt
+less		Lire un fichier page par page	less test.txt
+head		Voir le début			head test.txt
+tail		Voir la fin			tail test.txt
+grep		Rechercher du texte		grep "error" log.txt
+find		Rechercher fichiers/dossiers	find . -name "*.txt"
+🔐 Permissions et administration
+Commande	Rôle				Exemple
+chmod		Modifier les permissions	chmod +x script.sh
+chown		Modifier propriétaire		sudo chown user fichier
+sudo		Exécuter avec privilèges admin	sudo apt update
+su		Changer d'utilisateur		su -
