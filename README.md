@@ -1,1 +1,0 @@
-# DEvSecOps / Cloud -journey
