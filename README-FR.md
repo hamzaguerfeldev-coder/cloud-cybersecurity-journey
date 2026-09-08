@@ -24,8 +24,8 @@ Chaque compétence est validée par un **TP pratique**, documenté et versionné
 
 ### Phase 0 — Fondations Linux & Réseaux
 - [x] Commandes de base (navigation, fichiers, recherche) → [`Basic Linux Commands/`](./Basic%20Linux%20Commands)
-- [ ] Permissions & propriété (`chmod`, `chown`)
-- [ ] Gestion des processus (`ps`, `top`, `kill`)
+- [x] Permissions & propriété (`chmod`, `chown`, `chgrp`) → [`02-permissions-processes/`](./02-permissions-processes)
+- [x] Gestion des processus (`ps`, `top`, `kill`)
 - [ ] Shell scripting (variables, conditions, boucles)
 - [ ] Réseaux fondamentaux (IP/CIDR, DNS, TCP/UDP, SSH, firewalls)
 

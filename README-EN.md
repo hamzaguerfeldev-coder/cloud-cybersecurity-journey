@@ -24,8 +24,8 @@ Every skill is validated through a **hands-on lab**, documented and version-cont
 
 ### Phase 0 — Linux & Networking Foundations
 - [x] Basic commands (navigation, files, search) → [`Basic Linux Commands/`](./Basic%20Linux%20Commands)
-- [ ] Permissions & ownership (`chmod`, `chown`)
-- [ ] Process management (`ps`, `top`, `kill`)
+- [x] Permissions & ownership (`chmod`, `chown`, `chgrp`) → [`02-permissions-processes/`](./02-permissions-processes)
+- [x] Process management (`ps`, `top`, `kill`)
 - [ ] Shell scripting (variables, conditionals, loops)
 - [ ] Networking fundamentals (IP/CIDR, DNS, TCP/UDP, SSH, firewalls)
 
