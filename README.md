@@ -1,0 +1,117 @@
+# ☁️ Cloud & Cybersecurity Engineering Journey
+
+> Intensive self-training path toward a **Cloud Engineer / DevOps / DevSecOps / Platform Engineer** role, publicly documented with real hands-on labs, code, and concrete proof of skills.
+
+**Pace:** 20h/week | **Estimated duration:** 12-15 months | **Method:** theory → hands-on lab → documentation → commit
+
+---
+
+## 🎯 Objective
+
+Become job-ready for a Cloud/DevOps/DevSecOps role by merging two tracks: a solid **security** foundation (IAM, cyber defense, SOC, CCNA, CEH, Zero Trust) and modern **cloud-native** mastery (advanced Kubernetes, GitOps, Service Mesh, SRE, AI Infrastructure) — both are expected together in the 2026 market.
+
+---
+
+## 📊 Progress
+
+### Phase 0 — Linux & Networking Foundations
+- [x] Basic commands (navigation, files, search) → [`Basic Linux Commands/`](./Basic%20Linux%20Commands)
+- [x] Permissions & ownership (`chmod`, `chown`, `chgrp`) → [`02-permissions-processes/`](./02-permissions-processes)
+- [x] Process management (`ps`, `top`, `kill`)
+- [ ] Shell scripting (variables, conditionals, loops) — **in progress**
+- [ ] Networking fundamentals (IP/CIDR, DNS, TCP/UDP, SSH, firewalls, HTTP/HTTPS, REST APIs, load balancing, reverse proxy)
+- [ ] Advanced Git & GitHub (branches, merge, rebase, pull requests)
+
+### Year 1 — Securing and Administering Infrastructures
+- [ ] Module 1 — Access Control & Identity Management (IAM)
+- [ ] Module 2 — Cyber Defense: Systems & Networks
+- [ ] Module 3 — Advanced Operational Security (SOC, SIEM)
+- [ ] Module 4 — CCNA Security (ACLs, VPN, firewalls)
+- [ ] Module 5 — Advanced Cloud Infrastructure (HA, Terraform)
+- [ ] Module 6 — Containerization & Orchestration (Docker, Kubernetes, Helm)
+- [ ] Module 7 — Automation & CI/CD (Ansible, GitHub Actions, Jenkins)
+- [ ] Module 8 — Linux Server Administration (nginx, basic monitoring)
+
+### Year 2 — Advanced Cloud, Cloud-Native & Resilience
+- [ ] Module 9 — Advanced Cloud Security Architecture (Zero Trust, Vault)
+- [ ] Module 10 — Data Center Project (redundancy, disaster recovery)
+- [ ] Module 11 — Distributed Cloud Storage & Data Resilience
+- [ ] Module 12 — DevSecOps (SAST, DAST, vulnerability scanning, Trivy, Semgrep)
+- [ ] Module 13 — CEH Certification Prep (ethical hacking)
+- [ ] Module 14 — Advanced Kubernetes (HPA, VPA, Operators, Persistent Volumes)
+- [ ] Module 15 — Service Mesh & Policy Enforcement (Istio/Linkerd, OPA Gatekeeper)
+- [ ] Module 16 — GitOps (ArgoCD, FluxCD, multi-cluster architecture)
+- [ ] Module 17 — Site Reliability Engineering (SLO/SLA/SLI, incident management, chaos engineering, capacity planning)
+- [ ] Module 18 — AI Security & AI Infrastructure (prompt injection, RAG, vector databases, model serving, MCP, agentic workflows)
+
+### Bonus Modules — 2026 Market-Relevant Skills
+- [ ] Module 19 — FinOps / Cloud Cost Optimization
+- [ ] Module 20 — Multi-cloud (Azure / GCP) + certifications (GCP Digital Leader)
+- [ ] Module 21 — Advanced Observability (Prometheus, Grafana, OpenTelemetry)
+- [ ] Module 22 — Platform Engineering (Backstage, Crossplane, Internal Developer Platforms)
+- [ ] Module 23 — System Design for Infrastructure (scalability, caching, CDN, load balancing)
+- [ ] Module 24 — AIOps (AI-assisted debugging, alert triaging, automated remediation)
+
+---
+
+## 🎓 Certification Roadmap (aligned with progress)
+
+| Stage | Certification |
+|---|---|
+| After Phase 0 / early Year 1 | AWS Cloud Practitioner or GCP Digital Leader |
+| After Module 8 | HashiCorp Terraform Associate |
+| After Module 13 | CCNA Security / CEH |
+| After Module 14 | CKA (Certified Kubernetes Administrator) |
+| After Module 15 | CKAD / CKS (Kubernetes Security) |
+| After Module 16 | GitOps Associate (ArgoCD) |
+| After Module 18 | NVIDIA AI Infrastructure Associate |
+
+---
+
+## 🛠️ Target Tech Stack
+
+| Category | Tools |
+|---|---|
+| Cloud | AWS (primary), Azure, GCP (fundamentals) |
+| IaC | Terraform, Ansible, Pulumi (basics) |
+| Containers | Docker, Kubernetes, Helm |
+| Advanced Cloud-Native | Istio, Linkerd, OPA Gatekeeper, ArgoCD, FluxCD |
+| CI/CD | GitHub Actions, Jenkins |
+| Security | Vault, Suricata, Wazuh, Trivy, Semgrep |
+| Monitoring & SRE | Prometheus, Grafana, OpenTelemetry |
+| Networking | VPC, VPN (OpenVPN/WireGuard), CCNA basics, DNS, REST APIs, Reverse Proxy |
+| AI Infrastructure | RAG, Vector DB, vLLM, MCP, AI Agents |
+| Platform Engineering | Backstage, Crossplane |
+
+---
+
+## 📁 Repo Structure
+
+```
+cloud-cybersecurity-journey/
+├── README.md                     ← this file (overview + roadmap)
+├── Basic Linux Commands/         ← Phase 0: basic commands
+├── 02-permissions-processes/     ← Phase 0: permissions, chown, processes
+├── 03-shell-scripting/           ← Phase 0: scripting (in progress)
+├── 01-iam/                       ← Module 1 (upcoming)
+├── ...
+└── 24-aiops/                     ← Module 24 (upcoming)
+```
+
+Each module contains: a `README.md` (objective, achievements, challenges), the code/configs/scripts produced, and reference notes.
+
+---
+
+## 💡 Why This Repo
+
+This isn't a list of courses followed — it's a **technical progress log** with concrete evidence: every module = a real hands-on lab, every commit documents an actual step of progress. Goal: walk into an interview with concrete examples to show.
+
+---
+
+## 📫 Contact
+
+Feel free to reach out for any question about this journey or a collaboration opportunity.
+
+---
+
+*Last updated: September 2026*
