@@ -18,7 +18,7 @@ Become job-ready for a Cloud/DevOps/DevSecOps role by merging two tracks: a soli
 - [x] Basic commands (navigation, files, search) → [`Basic Linux Commands/`](./Basic%20Linux%20Commands)
 - [x] Permissions & ownership (`chmod`, `chown`, `chgrp`) → [`02-permissions-processes/`](./02-permissions-processes)
 - [x] Process management (`ps`, `top`, `kill`)
-- [ ] Shell scripting (variables, conditionals, loops) — **in progress**
+- [x] Shell scripting (variables, conditionals, loops) → [`03-shell-scripting/`](./03-shell-scripting)
 - [ ] Networking fundamentals (IP/CIDR, DNS, TCP/UDP, SSH, firewalls, HTTP/HTTPS, REST APIs, load balancing, reverse proxy)
 - [ ] Advanced Git & GitHub (branches, merge, rebase, pull requests)
 
