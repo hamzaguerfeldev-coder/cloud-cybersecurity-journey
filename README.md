@@ -17,7 +17,7 @@ Devenir opérationnel sur un poste Cloud/DevOps/DevSecOps en fusionnant deux app
 ### Phase 0 — Fondations Linux & Réseaux
 - [x] Commandes de base (navigation, fichiers, recherche) → [`Basic Linux Commands/`](./Basic%20Linux%20Commands)
 - [x] Permissions & propriété (`chmod`, `chown`, `chgrp`) → [`02-permissions-processes/`](./02-permissions-processes)
-- [x] Gestion des processus (`ps`, `top`, `kill`)
+- [x] Gestion des processus (`ps`, `top`, `kill`)         ->[`02-permissions-processes/`](./02-permissions-processes)
 - [x] Shell scripting (variables, conditions, boucles) → [`03-shell-scripting/`](./03-shell-scripting)
 - [ ] Réseaux fondamentaux (IP/CIDR, DNS, TCP/UDP, SSH, firewalls, HTTP/HTTPS, REST API, load balancing, reverse proxy)
 - [ ] Git & GitHub avancé (branches, merge, rebase, pull requests)
