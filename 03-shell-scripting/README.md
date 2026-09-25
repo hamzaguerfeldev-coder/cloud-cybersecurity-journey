@@ -21,6 +21,7 @@ Learning to automate the Linux basics from modules 01 and 02 with Bash: variable
 | 13 | Dated directory | Build a dynamic name with $(date +%Y-%m-%d) and create it | [dynamic_directory.sh](https://claude.ai/chat/scripts/dynamic_directory.sh "https://claude.ai/chat/scripts/dynamic_directory.sh") |   
 | 14 | Interactive menu | case statement + user choice (date, user, path, files, exit) | [backup_manager.sh](https://claude.ai/chat/scripts/backup_manager.sh "https://claude.ai/chat/scripts/backup_manager.sh") |   
 | 15 | Array manager | Arrays (+=), while menu loop, case with default fallback — add/list fruits & animals | [array.sh](https://claude.ai/chat/scripts/array.sh "https://claude.ai/chat/scripts/array.sh") |   
+| 16 | **Linux system audit** | Combine Bash skills to inspect system information, disk usage, memory, services, processes, and exit status | [server_audit.sh](scripts/server_audit.sh) |
 Test data files: [f.txt](https://claude.ai/chat/scripts/f.txt "https://claude.ai/chat/scripts/f.txt"), [r.txt](https://claude.ai/chat/scripts/r.txt "https://claude.ai/chat/scripts/r.txt")  
 ## **▶️ How to run**  
 chmod +x scripts/*.sh        # give execution permission once  
