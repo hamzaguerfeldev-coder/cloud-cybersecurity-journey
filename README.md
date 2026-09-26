@@ -263,19 +263,19 @@ Certifications are planned to support practical experience.
 | Platform Engineering | Backstage, Crossplane |   
 | Databases | PostgreSQL, MySQL, AWS RDS |   
 | # **📁 Repository Structure** |   |   
-| cloud-cybersecurity-journey/│├── 01-linux-basics/│   ├── README.md│   └── tp-linux-basics-corrected-en.md│├── 02-permissions-processes/│   └── notes-English.md│├── 03-shell-scripting/│   └── README.md│└── README.md |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
-|   |   |   
+| cloud-cybersecurity-journey/ |   |   
+| │ |   |   
+| ├── 01-linux-basics/ |   |   
+| │   ├── README.md |   |   
+| │   └── tp-linux-basics-corrected-en.md |   |   
+| │ |   |   
+| ├── 02-permissions-processes/ |   |   
+| │   └── notes-English.md |   |   
+| │ |   |   
+| ├── 03-shell-scripting/ |   |   
+| │   └── README.md |   |   
+| │ |   |   
+| └── README.md |   |   
 |   |   |   
 | The repository will grow progressively as new modules are completed. |   |   
 | # **📌 Current Focus** |   |   
