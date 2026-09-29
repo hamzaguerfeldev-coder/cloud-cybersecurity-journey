@@ -22,6 +22,7 @@ Learning to automate the Linux basics from modules 01 and 02 with Bash: variable
 | 14 | Interactive menu | case statement + user choice (date, user, path, files, exit) | [backup_manager.sh](scripts/backup_manager.sh "scripts/backup_manager.sh") |   
 | 15 | Array manager | Arrays (+=), while menu loop, case with default fallback — add/list fruits & animals | [array.sh](scripts/array.sh "scripts/array.sh") |   
 | 16 | **Linux system audit** | Combine Bash skills to inspect system information, disk usage, memory, services, processes, and exit status | [server_audit.sh](scripts/server_audit.sh) |
+| 17 | **Associative array menu** | Use Bash associative arrays to add, remove, and display key/value pairs with an interactive menu | [magic_map.sh](scripts/magic_map.sh) |
 Test data files: [f.txt](scripts/f.txt "scripts/f.txt"), [r.txt](scripts/r.txt "scripts/r.txt")  
 ## **▶️ How to run**  
 chmod +x scripts/*.sh        # give execution permission once  
