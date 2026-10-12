@@ -8,30 +8,38 @@ practiced now with hands-on exercises; Levels 2-5 are revisited in context
 later in the roadmap (Modules 5, 6, 9, 14, 15, 23), with real hands-on labs
 at that point rather than theory in a vacuum.
 
+📖 **Theory notes:** → [networking-theory-notes-en.md](./networking-theory-notes-en.md)
+🧪 **Exercises + solutions:** → [exercises-corrected.md](./exercises-corrected.md)
+
 ---
 
 ## 🟢 Level 1 — Core Fundamentals (practiced now)
 
-- [ ] IP addressing (private vs public, the 3 private ranges)
-- [ ] CIDR notation & subnetting
-- [ ] DNS (resolution process, record types: A, AAAA, CNAME, MX, NS, TXT)
-- [ ] TCP vs UDP + the TCP 3-way handshake
-- [ ] Common ports (22, 53, 80, 443, 3306, 5432, 6379, 8080)
-- [ ] SSH (connection, key pairs, SSH config file)
-- [ ] HTTP/HTTPS (verbs, status codes)
-- [ ] TLS/SSL (certificates, concept)
-- [ ] Firewalls (concept, `ufw`)
+- [x] Network basics (LAN vs WAN, hub vs switch vs router, MAC vs IP)
+- [x] DHCP (automatic IP assignment, DORA process)
+- [x] CIDR notation & subnetting
+- [x] DNS (resolution process, 4 DNS server types, record types)
+- [x] TCP vs UDP + the TCP 3-way handshake
+- [x] Common ports (22, 53, 80, 443, 3306, 5432, 6379, 8080)
+- [x] SSH (connection, key pairs, SSH config file)
+- [x] HTTP/HTTPS (verbs, status codes)
+- [x] TLS/SSL (certificates, concept)
+- [x] Firewalls (concept, whitelist vs blacklist, `ufw`)
+- [x] Gateway (default gateway, Internet Gateway vs NAT Gateway)
+- [x] NAT / PAT
+- [ ] Hands-on exercises — see table below
 
-**Hands-on exercises:** → [`exercises/`](./exercises)
+### Exercises
 
-| # | Exercise | Goal | Notes |
+| # | Exercise | Goal | File |
 |---|---|---|---|
-| 1 | CIDR | Calculate address counts for `/16`, `/28`, `/20` | [cidr.md](./exercises/cidr.md) |
-| 2 | DNS | `dig` various records, identify responding server | [dns-notes.md](./exercises/dns-notes.md) |
-| 3 | Ports | `ss -tulpn`, identify each listening service | [ports-notes.md](./exercises/ports-notes.md) |
-| 4 | SSH | Generate a key pair, explain private vs public key | [ssh-notes.md](./exercises/ssh-notes.md) |
-| 5 | Firewall | `ufw allow/delete`, document each command | [firewall-notes.md](./exercises/firewall-notes.md) |
-| 6 | HTTP | `curl -I` on HTTP vs HTTPS site, compare headers | [http-notes.md](./exercises/http-notes.md) |
+| 1 | CIDR | Calculate usable address counts for `/16`, `/28`, `/20` | [exercises-corrected.md#exercise-1--cidr](./exercises-corrected.md#exercise-1--cidr) |
+| 2 | DNS | `dig` various records, identify responding server | [exercises-corrected.md#exercise-2--dns](./exercises-corrected.md#exercise-2--dns) |
+| 3 | Ports | `ss -tulpn`, identify each listening service | [exercises-corrected.md#exercise-3--ports](./exercises-corrected.md#exercise-3--ports) |
+| 4 | SSH | Generate a key pair, explain private vs public key | [exercises-corrected.md#exercise-4--ssh](./exercises-corrected.md#exercise-4--ssh) |
+| 5 | Firewall | `ufw allow/delete`, document each command | [exercises-corrected.md#exercise-5--firewall](./exercises-corrected.md#exercise-5--firewall) |
+| 6 | HTTP | `curl -I` on HTTP vs HTTPS site, compare headers | [exercises-corrected.md#exercise-6--http](./exercises-corrected.md#exercise-6--http) |
+| 7 | Gateway & DHCP (bonus) | Identify current gateway and DHCP-assigned IP | [exercises-corrected.md#exercise-7--gateway--dhcp-bonus](./exercises-corrected.md#exercise-7--gateway--dhcp-bonus) |
 
 ---
 
@@ -74,6 +82,16 @@ at that point rather than theory in a vacuum.
 - [ ] Rate Limiting
 - [ ] Latency vs Bandwidth
 - [ ] What happens when you type a URL (full request lifecycle)
+
+---
+
+## 🛠️ Next: Closing Mini-Project
+
+Once the 7 exercises above are done, this module closes with a small
+**network diagnostic script** (`network-diagnostic.sh`) that ties
+DNS resolution, HTTP/HTTPS checks, open ports, firewall status, and
+CIDR calculation into one reusable tool — combining the pieces instead
+of leaving them as separate, disconnected exercises.
 
 ---
 
