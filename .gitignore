@@ -1,0 +1,13 @@
+# Fichiers d'environnement locaux
+.env
+.env.*
+
+# Exceptions pour les modèles sans secrets
+!.env.example
+
+# Logs
+*.log
+
+# Sauvegardes locales
+backups/
+*.bak
